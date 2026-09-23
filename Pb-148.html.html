@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="get">
+        <h2> USER REG> FORM</h2>
+        <fieldset>
+            <legend align ="middle"> Signup</legend>
+            <br>
+            <br>
+             Username
+            <input type="text" name="Username" id="Username" autofocus autocomplete="on" required placeholder="enter user name">
+            <br>
+            <br>
+            Password
+            <input type="password" name="password" id="password" required autofocus>
+            <br>
+            <br>
+              Gender
+              <input type="radio" name="gender" id="gender" required value="male" checked> male
+              <input type="radio" name="gender" id="gender" required value="female">female
+        <br>
+        <br>
+              Area of Interest
+              <input type="checkbox" id="aoi" name="aoi" value="DS"> DS 
+              <input type="checkbox" id="aoi" name="aoi" value="DBMS"> DBMS
+              <input type="checkbox" id="aoi" name="aoi" value="CN"> CN
+              <input type="checkbox" id="aoi" name="aoi" value="Fullstack"> Full stack
+        <br>
+        <br>
+              Department
+              <select name="Department" id="Department" aria-activedescendant="----Select Department-----">
+        <br>
+        <br>
+                <option Value="select Department">----Select Department-----</option>
+                <option Value ="Computer"> computer</option>
+                <option Value ="Civil"> Civil</option>
+                <option Value ="Mechanic"> Mechanic</option>
+                </select>
+        <br>
+        <br>
+                Address
+                <textarea name="Address" id="Address" rows="5" cols="10">hello</textarea>
+        <br>
+        <br>
+                date
+                <input type="date" id="date" name="date" required value="dd--mm--yyyy">
+        <br>
+        <br>
+                email
+                <input type="email" id="email" name="email" required autofocus>
+        <br>
+        <br>
+                <input type="submit" id="submit" name="submit">
+                <input type="reset" id="reset" name="reset">
+           
+        </fieldset>
+    </form>
+</body>
+</html>
